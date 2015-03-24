@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap layout</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' >
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+	<script src="http://vk.com/js/api/openapi.js?116" type="text/javascript"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--Begine of container-->
+<div class="container-fluid">
+	<!--[if IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+    <!--Begine of header-->
+    <header class="row head" >
+        <div class="row border">
+            <div class="col-lg-2 col-lg-push-2 col-md-2 col-md-push-2 col-sm-2 col-sm-push-2 col-xs-8 col-xs-push-2 ">
+                <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div class="col-lg-8  col-md-8  col-xs-8 ">
+                <h1>Проект стимулирования <br/> мозговой  деятельности человека</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="znai">
+                    <h3>Узнай как это работает</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="embed">
+                    <iframe class="embed-frame">
+                    </iframe>
+                    <p>Смотреть видео</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12  col-xs-12">
+                    	<div class="icons">
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar facebook"></span>
+                        </div>
+                        <div class="btns-authorization">
+	                        <button class="btn btn-default">Авторизация</button>
+	                        <button class="btn btn-default">Регистрация</button>
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        </div>	
+    </header>
+    <!--End of header-->
+
+    <!--Begin of achievements-->
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <h2>Почему именно мы ?</h2>
+            </div>
+            <section class="row why">
+                <div class="col-lg-3 col-xs-6">
+                    <span class="circle-icon games"></span>
+                    <p>Более 42 игры, разработанные лучшими учеными, работающими <br>
+                        в сфере неврологии и когнитивной психологии.</p>
+                </div>
+                <div class="col-lg-3 col-xs-6">
+                    <span class="circle-icon users"></span>
+                    <p>Более 3000 зарегистрированных пользователей. Количество пользователей
+                        продолжает расти и их позитивные отклики вдохновляют нас развиваться дальше.</p>
+                </div>
+                <div class="col-lg-3 col-xs-6">
+                    <span class="circle-icon days"></span>
+                    <p>Еще 10 дней использование приложений - бесплатно.</p>
+                </div>
+                <div class="col-lg-3 col-xs-6">
+                    <span class="circle-icon categories"></span>
+                    <p>Развиваем 5 основных категорий мозга: память, внимание, реакцию,
+                        скорость мышления и концентрацию.</p>
+                </div>
+            </section>
+            <div class="row">
+                <div class="сol-lg-3 col-lg-push-6 col-xs-6 col-xs-push-6">
+                    <p class="improve">Начни совершенствоваться прямо сейчас</p>
+                    <button class="btn btn-lg btn-info "><p>Тренироваться</p></button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--End of achievements-->
+
+    <!--Begin of Features-->
+    <div class="container-fluid grey" >
+        <div class="container">
+            <section class="row">
+                <div class="col-lg-6 ">
+                    <ul class="first-column">
+                        <li class="subj">
+                            <span class="icon-subject camera"></span>
+                            <h4 class="small-heading">Развивающие видео</h4>
+                            <p>В разделе Видео Вы найдете как общеразвивающие видео
+                                так и лекции лучших ученых мира</p>
+                        </li>
+                        <li class="subj">
+                            <span class="icon-subject pc"></span>
+                            <h4 class="small-heading">Индивидуальный курс
+                                саморазвития</h4>
+                            <p>С помощью тестирования мы определим для Вас индивидуальный курс
+                                с учётом Ваших предпочтений и интересов</p>
+                        </li>
+                        <li class="subj">
+                            <span class="icon-subject users"></span>
+                            <h4 class="small-heading">Соревнуйтесь со своими друзями</h4>
+                            <p>В разделе Рейтинг Вы сможете сравнить свои результаты как со
+                                всеми пользователями сервиса так и со своими друзьями с соц сетей</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="second-column">
+                        <li class="subj">
+                            <span class="icon-subject book"></span>
+                            <h4 class="small-heading">Интересные статьи</h4>
+                            <p>Интересные научные и развивающее статьи дополнят
+                                и разнообразят Ваше саморазвитие</p>
+                        </li>
+                        <li class="subj">
+                            <span class="icon-subject graphic"></span>
+                            <h4 class="small-heading">Удобная инфографика</h4>
+                            <p>С помощью удобной инфографики Вы сможете увидеть свой прогресс развития
+                                отдельных категорий мозга,сравнить свои результаты с показателями
+                                Вашей возростной группы</p>
+                        </li>
+                        <li class="subj">
+                            <span class="icon-subject star"></span>
+                            <h4 class="small-heading">Проверенная польза подхода entertainment </h4>
+                            <p>Позитивный эффект данного похдода стимулирования мозговой деятельности и развития
+                                основных категорий работы мозга подтвержден лучшими университетами США и милионами
+                                поклоников по всему миру</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--End of Features-->
+
+    <!--Begin of Games-->
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-lg-2">
+                    <span class="big-circle labirint"></span>
+                </div>
+                <div class="col-lg-2">
+                    <span class="big-circle poker"></span>
+                </div>
+                <div class="col-lg-2">
+                    <span class="big-circle fish"></span>
+				 </div>
+                <div class="col-lg-2">
+                    <span class="big-circle map"></span>
+                </div>
+                <div class="col-lg-2">
+                    <span class="big-circle labirint"></span>
+                </div>
+                <button class="btn btn-lg btn-info play"><p>Начать играть</p></button>
+            </div>
+        </div>
+    <!--End of Games-->
+
+    <!-- Begin of reviews -->
+    <div class="container-fluid grey">
+        <div class="container">
+	        <div class="row">
+	        	<h2>Отзывы пользователей</h2>
+	        </div>
+
+            <div class="row">
+                <span class="reviews-person red"></span>
+                <div class="review left">
+                    <p class="reviews-text">«Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.&raquo;</p>
+                    <p class="reviews-author">Евгения Бойчук</p>
+            	</div>  
+			</div>
+
+			<div class="row right">
+                <div class="review right">
+                    <p class="reviews-text">«Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.&raquo;</p>
+                    <p class="reviews-author">Евгения Бойчук</p>
+                </div>
+                <span class="reviews-person right pare"></span>
+            </div>
+
+            <div class="row">
+                <span class="reviews-person blonde"></span>
+                <div class="review left">
+                    <p class="reviews-text">«Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.&raquo;</p>
+                    <p class="reviews-author">Евгения Бойчук</p>
+            	</div>  
+			</div>
+        </div>
+    </div> 
+    <!-- End of reviews -->
+	<div class="container">
+		<div class="row">
+			<h2>Наши пользователи со всех стран снг</h2>
+		</div>
+		<div class="row">
+				<!-- VK Widget -->
+			<div id="vk_groups">	
+			</div>
+			<!-- Facebook Widget -->
+            <div class="fb-like-box" data-href="https://www.facebook.com/www.adme.ru"
+                 data-width="305" data-height="365" data-colorscheme="light" data-show-faces="true"
+                 data-header="true" data-stream="false" data-show-border="true"></div>
+				<!--<img class="img-responsive facebook-plugin" src="img/fab.png"  alt="facebook">-->
+		</div>
+		<div class="row">
+			<h2 class="capital">Они уже прокачали свой мозг. А ты?</h2>
+		</div>
+	</div>	
+	<footer>
+		<div class="container-fluid">
+			<div class="row violet">
+				<h2>Узнай на что способен твой мозг!</h2>
+				<button class="btn-register"> <p>Зарегистрироваться бесплатно</p> </button>
+			</div>
+
+			<div class="container footer">
+				<div class="footer-content">
+					<a class="logo" href="#"><img src="img/bg-logo.png" alt="bg-logo"></a>
+					<span class="icon-social fb"></span>
+					<span class="icon-social vk"></span>
+					<p class="footer-copy">&copy;Brainclass - проект для саморазвития, 2012-2011</p>
+				</div>
+					<ul class="footer-menu">
+						<li><a href="">О проекте</a></li>
+						<li><a href="">Игры</a></li>
+						<li><a href="">Статьи</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+		VK.Widgets.Group("vk_groups", {mode: 0, width: "305", height: "358"}, 1);
+	</script>
+
+</div>
+<!--End of container-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
